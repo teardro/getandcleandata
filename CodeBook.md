@@ -68,11 +68,11 @@ Uses descriptive activity names
 Appropriately labels the data set with descriptive variable names
 -----------------------------------------------------------------
 
-*Remove () and -
-*Replace 't' and 'f' with 'Time' and 'Frequency' respectively
-*Replace 'mean' and 'std' with 'Mean' and 'STD' respectively
-*Replace 'Acc','Gyro','Mag' with 'Accelerometer','Gyroscope','Magnitude' respectively
-*Remove redundant 'Body' in string containing'BodyBody'
+* Remove () and -
+* Replace 't' and 'f' with 'Time' and 'Frequency' respectively
+* Replace 'mean' and 'std' with 'Mean' and 'STD' respectively
+* Replace 'Acc','Gyro','Mag' with 'Accelerometer','Gyroscope','Magnitude' respectively
+* Remove redundant 'Body' in string containing'BodyBody'
 
 ⋅⋅⋅resulting variable :dataAct
 
