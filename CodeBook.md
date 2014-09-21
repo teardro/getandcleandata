@@ -65,16 +65,19 @@ Uses descriptive activity names
 |Num|featureLabel number wihout "V", eg."1"|
 |Feature| feature name for type of measurement eg. "tBodyAcc-mean()-X"|
 
-4. Appropriately labels the data set with descriptive variable names
-⋅⋅* Remove () and -
-⋅⋅* Replace 't' and 'f' with 'Time' and 'Frequency' respectively
-⋅⋅* Replace 'mean' and 'std' with 'Mean' and 'STD' respectively
-⋅⋅* Replace 'Acc','Gyro','Mag' with 'Accelerometer','Gyroscope','Magnitude' respectively
-⋅⋅* Remove redundant 'Body' in string containing'BodyBody'
+Appropriately labels the data set with descriptive variable names
+-----------------------------------------------------------------
+
+*Remove () and -
+*Replace 't' and 'f' with 'Time' and 'Frequency' respectively
+*Replace 'mean' and 'std' with 'Mean' and 'STD' respectively
+*Replace 'Acc','Gyro','Mag' with 'Accelerometer','Gyroscope','Magnitude' respectively
+*Remove redundant 'Body' in string containing'BodyBody'
 
 ⋅⋅⋅resulting variable :dataAct
 
-5. creates tidy data set with the average of each variable for each activity and each subject
+creates tidy data set with the average of each variable for each activity and each subject
+-------------------------------------------------------------------------------------------
 ⋅⋅⋅reshaping accoridng to Subject,ActivityName and Feature
 ⋅⋅⋅Resulting variable: dtTidy
 ⋅⋅⋅The description is in the beginning of this file.
