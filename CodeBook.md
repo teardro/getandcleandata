@@ -34,25 +34,24 @@ Merge the training and the test sets and get data set with varibale: dtset
 | Subject      |The ID of Subject that did the activity | 
 | ActivityLabels   |They activity number the Subject was doing      | 
 
-⋅⋅⋅The rest of the columns are like "V1" "V2"... represent the different types of data.
+The rest of the columns are like "V1" "V2"... represent the different types of data.
 
 Extracts only the measurements on the mean and standard deviation 
 -----------------------------------------------------------------
-⋅⋅⋅variable: dtaft
+Resulting variable: dtaft
+- dtaft is in data.table format
+- nrow X ncol is 10299X68
 
-⋅⋅⋅Column properties are like in dtset, but only with column that are mean or standard deviation values
-
-⋅⋅⋅dtaft is in data.table format
-⋅⋅⋅nrow X ncol is 10299X68
+Column properties are like in dtset, but only with column that are mean or standard deviation values
 
 
 Uses descriptive activity names
 --------------------------------
+Read in the activity name from "activity_labels.txt".
 
-⋅⋅⋅read in the activity name from "activity_labels.txt".
+Assign the activity name according to dtaft$ActivityLabels.
 
-⋅⋅⋅Assign the activity name according to dtaft$ActivityLabels.
-⋅⋅⋅The final variable: dataAct
+- The final variable: dataAct
 
 
 | Column Name   |     Description       |
@@ -74,12 +73,12 @@ Appropriately labels the data set with descriptive variable names
 * Replace 'Acc','Gyro','Mag' with 'Accelerometer','Gyroscope','Magnitude' respectively
 * Remove redundant 'Body' in string containing'BodyBody'
 
-⋅⋅⋅resulting variable :dataAct
+Resulting variable :dataAct
 
 creates tidy data set with the average of each variable for each activity and each subject
 -------------------------------------------------------------------------------------------
-⋅⋅⋅reshaping accoridng to Subject,ActivityName and Feature
+Reshaping accoridng to Subject,ActivityName and Feature
 
-⋅⋅⋅Resulting variable: dtTidy
+Resulting variable: dtTidy
 
-⋅⋅⋅The description is in the beginning of this file.
+The description is in the beginning of this file.
