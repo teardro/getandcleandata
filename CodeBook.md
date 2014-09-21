@@ -79,5 +79,7 @@ Appropriately labels the data set with descriptive variable names
 creates tidy data set with the average of each variable for each activity and each subject
 -------------------------------------------------------------------------------------------
 ⋅⋅⋅reshaping accoridng to Subject,ActivityName and Feature
+
 ⋅⋅⋅Resulting variable: dtTidy
+
 ⋅⋅⋅The description is in the beginning of this file.
